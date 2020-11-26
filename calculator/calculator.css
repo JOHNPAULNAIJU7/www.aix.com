@@ -1,0 +1,46 @@
+body{
+    background: linear-gradient(45deg,#405DE6,#5851DB,#833AB4,#C13584,#E1306C,#FD1D1D);
+}
+.calc{
+    margin-top: -22px;
+    width: 400px;
+    height: 550px;
+    background: transparent;
+    margin-left: 460px;
+}
+.output{
+    padding-top: 2px;
+}
+#screen{
+    width: 392px;
+    height: 220px;
+    outline: none;
+    pointer-events: none;
+    opacity: 0.4;
+    text-align: right;
+    font-size: 50px;
+}
+.button{
+    padding-top: 0px;
+}
+.btn{
+    opacity: 0.4;
+    width: 97px;
+    height: 65px;
+}
+.BTN{
+    opacity: 0.4;
+    width: 400px;
+    height: 61px;
+}
+.aix{
+    color: white;
+    margin-left: 15px;
+    opacity: 0.9;
+    font-size: 75px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    text-decoration: none;
+
+}
