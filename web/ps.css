@@ -1,0 +1,76 @@
+#fname{
+    box-shadow: none;
+    border-radius: 0px;
+    outline: none;
+    background: transparent;
+    border-style: none none solid none;
+    border-bottom: 1px solid #5851DB;
+    width: 50%;
+    transition:all .5s;
+}
+#fname:focus{
+    box-shadow: none;
+    outline: none;
+    border-color: #405DE6;
+}
+#fname:focus-within{
+    transform: scale(1.05,1.05);
+}
+#gform{
+    padding-top: 15%;
+}
+#ename{
+    box-shadow: none;
+    border-radius: 0px;
+    outline: none;
+    background: transparent;
+    border-style: none none solid none;
+    border-bottom: 1px solid #5851DB;
+    width: 50%;
+    transition:all .5s;
+}
+#ename:focus{
+    box-shadow: none;
+    outline: none;
+    border-color: #405DE6; 
+} 
+#ename:focus-within{
+    transform: scale(1.05,1.05);
+} 
+#pname{
+    box-shadow: none;
+    border-radius: 0px;
+    outline: none;
+    background: transparent;
+    border-style: none none solid none;
+    border-bottom: 1px solid #5851DB;
+    width: 50%;
+    transition:all .5s;
+}
+#pname:focus{
+    box-shadow: none;
+    outline: none;
+    border-color: #405DE6; 
+} 
+#pname:focus-within{
+    transform: scale(1.05,1.05);
+}
+#fname.error{
+    color: red;
+} 
+#ename.error{
+    color: red;
+} 
+#BTN{
+    margin-left: 75px;
+    margin-top: 10px;
+    color: white;
+    background: linear-gradient(45deg,#405DE6,#5851DB,#833AB4,#C13584,#E1306C,#FD1D1D);
+    outline: none;
+    border-style: none;
+    border-radius: 12px;
+}
+#my_img{
+    width: 310px;
+    height: 285px;
+}
