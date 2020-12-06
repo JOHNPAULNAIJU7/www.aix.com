@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Meet</title>
+    <link rel="shortcut icon" href="https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-96dp/logo_meet_2020q4_color_2x_web_96dp.png" type="img/png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="aix meet.css" rel="stylesheet" type="text/css"> 
+</head>
+<body>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <div class="row">
+        <div class="col-md-6">
+            <a href="aix meet.html">
+                <img src="https://www.gstatic.com/meet/google_meet_horizontal_wordmark_2020q4_1x_icon_124_40_2373e79660dabbf194273d27aa7ee1f5.png" class="pl-3 pt-3" id="img1" alt="">
+                <span id="font1" class="">Meet</span>
+            </a> 
+            <div id="font2" class="">Premium video meetings. 
+                <br>
+                Now free for everyone.
+            </div>
+            <div id="font3">
+                We re-engineered the service we built for secure business 
+                <br>
+                meetings, Google Meet, to make it free and available for all.
+            </div>
+            <div class="input-container" id=font4>
+                <button id="button1">New Meeting</button> 
+                <input id="inp1" type="text" placeholder="  Enter a code or link" autocomplete="off" required>
+                <button id="button2">Join</button>
+                <script>
+                    $(document).ready(function(){
+                        $("#button1").click(function(){
+                            $(this).css({"background":"#004d40"})
+                            ///window.location.href="https://meet.google.com/khs-twrx-kzd"   
+                            
+                        })
+                        $("#button1").mouseenter(function(){
+                            $(this).css({"background":"#004d40"})
+                        })
+                        $("#button1").mouseleave(function(){
+                            $(this).css({"background":"#00796b"})
+                        })
+                        
+                    })
+                </script>
+            </div>
+            <style>
+                hr { 
+                  display: block;
+                  margin-top: 50px;
+                  margin-bottom: 0.5em;
+                  margin-left: 50px;
+                  margin-right: auto;
+                  border-style: inset;
+                  border-width: 1px;
+                } 
+                </style>
+            <hr>
+            <a href="https://support.google.com/meet/?hl=en#topic=7306097" id="a1">Learn more</a>
+            <a href="https://support.google.com/meet/?hl=en#topic=7306097" id="a2">about Google Meet</a>
+        </div>
+            
+        <div class="col-md-6">
+            <img src="https://www.gstatic.com/meet/google_meet_marketing_ongoing_meeting_grid_427cbb32d746b1d0133b898b50115e96.jpg" id="img22">
+        </div>
+
+    </div>
+
+</body>
+</html>

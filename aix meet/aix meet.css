@@ -1,0 +1,80 @@
+#font1{
+    font-size: 24px;
+    font-family: 'Product Sans',Arial,sans-serif;
+    text-decoration: none;
+    color: #5f6368;
+    float: right;
+    margin-right: 470px;
+    padding-top: 16px;
+}
+#font2{
+    font-family: 'Google Sans Display',Roboto,Arial,sans-serif;
+    color: black;
+    font-size: 2.75rem;
+    padding-top: 105px;
+    padding-left: 50px;
+}
+#font3{
+    font-size: 1.125rem;
+    color: #5f6368;
+    padding-left: 50px;
+}
+#font4{
+    padding-left: 50px;
+    margin-top: 50px;
+}
+#button1{
+    background: #00796b;
+    color: white;
+    outline: none;
+    border: none;
+    width: 160px;
+    height: 50px;
+    font-family: sans-serif;
+    font-size: 1rem;
+    border-radius: 5px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: .0107142857em;
+}
+#inp1{
+    margin-left: 25px;
+    width: 245px;
+    height: 49px;
+    border-radius: 5px;
+    border: 1px solid rgb(118, 118, 118);
+    outline: none;
+}
+#inp1:focus{
+    border: 2px solid #00796b;
+    outline: none;
+}
+#a1{
+    color: #00796b;
+    margin-left: 50px;
+    font-family: sans-serif;
+}
+#a2{
+    float: right;
+    margin-right: 395px;
+    font-family: sans-serif;
+    color: rgb(118, 118, 118);
+    text-decoration: none;
+}
+#button2{
+    background: transparent;
+    color: rgb(118, 118, 118);
+    outline: none;
+    border: none;
+    margin-left: 20px;
+}
+#inp1:focus + #button2{
+    color: #00796b;
+}
+#img22{
+    width: 570px;
+    height: 370px;
+    margin-top: 165px;
+    margin-left: 25px;
+    border-radius: 5px;
+}
